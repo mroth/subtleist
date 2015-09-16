@@ -131,7 +131,10 @@ func slackHandler(rw http.ResponseWriter, req *http.Request) {
 func main() {
 	http.HandleFunc("/slack_hook", slackHandler)
 
-	port := ":8080"
+	port := ":" + os.Getenv("PORT")
+	if port == ":" {
+		port = ":8080"
+	}
 	log.Println("Listening on " + port)
 	log.Fatal(http.ListenAndServe(port, nil))
 }
