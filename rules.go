@@ -23,7 +23,7 @@ var surpriseRule = Rule{
 
 var wellActuallyRule = Rule{
 	title:       "No well-actually's",
-	description: `A well-actually happens when someone says something that's almost - but not entirely - correct, and you say, "well, actually…" and then give a minor correction. This is especially annoying when the correction has no bearing on the actual conversation. This doesn't mean the Recurse Center isn't about truth-seeking or that we don't care about being precise. Almost all well-actually's in our experience are about grandstanding, not truth-seeking.`,
+	description: `A well-actually happens when someone says something that's almost—but not entirely—correct, and you say, "well, actually…" and then give a minor correction. This is especially annoying when the correction has no bearing on the actual conversation. This doesn't mean that we aren't about truth-seeking or that we don't care about being precise. Almost all well-actually's in our experience are about grandstanding, not truth-seeking.`,
 	id:          "no-well-actuallys",
 	trigger:     "actually",
 }
@@ -37,7 +37,7 @@ var backseatRule = Rule{
 
 var subtleRule = Rule{
 	title:       "No subtle -isms",
-	description: `Our last social rule bans subtle racism, sexism, homophobia, transphobia, and other kinds of bias. This one is different from the rest, because it covers a class of behaviors instead of one very specific pattern.\n\nSubtle -isms are small things that make others feel uncomfortable, things that we all sometimes do by mistake. For example, saying "It's so easy my grandmother could do it" is a subtle -ism. Like the other three social rules, this one is often accidentally broken. Like the other three, it's not a big deal to mess up – you just apologize and move on.`,
+	description: `Our last social rule bans subtle racism, sexism, homophobia, transphobia, and other kinds of bias. This one is different from the rest, because it covers a class of behaviors instead of one very specific pattern. Subtle -isms are small things that make others feel uncomfortable, things that we all sometimes do by mistake. For example, saying "It's so easy my grandmother could do it" is a subtle -ism. Like the other three social rules, this one is often accidentally broken. Like the other three, it's not a big deal to mess up – you just apologize and move on.`,
 	id:          "no-subtle-isms",
 	trigger:     "subtle",
 }
