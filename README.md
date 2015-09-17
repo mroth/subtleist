@@ -52,9 +52,9 @@ The bot will refuse to run unless a `SLACK_WEBHOOK_URL` environment variable
 exists, which you should have generated in the previous step.
 
 To make this easy, here is a one-step "Click to install" Heroku button that
-handles all the installation and setup for you via the web!
+handles all the installation and setup for you via the web, with free hosting!
 
-    TODO: PUT PRESS BUTTAN HERE
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Create the slash command in Slack
 [Create a new slash command](https://my.slack.com/services/new/slash-commands/),
