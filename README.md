@@ -7,6 +7,8 @@ rule, or a specific team member privately.
 
     /socialrules [surprise|wellactually|backseat|subtle] [<@user>]
 
+<img src="http://f.cl.ly/items/272F0h1h1l13241f0t12/subtleist.png" width="780">
+
 ## Motivation
 I believe the [Recurse Center social rules] are fantastic guidelines, and
 something most teams in the tech industry should adopt.
