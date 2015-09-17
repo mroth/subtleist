@@ -15,5 +15,5 @@
     }
   },
   "image": "heroku/go:1.5.1",
-  "mount_dir": "src/github.com/mroth/subtleist",
+  "mount_dir": "src/github.com/mroth/subtleist"
 }
