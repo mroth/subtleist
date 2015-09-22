@@ -1,0 +1,19 @@
+{
+  "name": "subtleist",
+  "description": "Recurse Center Social Rules integration for Slack",
+  "website": "https://github.com/mroth/subtleist",
+  "repository": "https://github.com/mroth/subtleist",
+  "keywords": [
+    "recurse-center",
+    "social-rules",
+    "slack"
+  ],
+  "env": {
+    "SLACK_WEBHOOK_URL": {
+      "description": "The URL for your configured Slack Incoming Webhook",
+      "required": true
+    }
+  },
+  "image": "heroku/go:1.5.1",
+  "mount_dir": "src/github.com/mroth/subtleist"
+}
