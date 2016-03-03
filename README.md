@@ -66,3 +66,7 @@ and configure it with the following values:
 - Autocomplete help text
   - Description: `Remind someone about the social rules`
   - Usage hint: `[surprise|wellactually|backseat|subtle] [<destination>]`
+
+## License
+
+Released under the [MIT License](http://www.opensource.org/licenses/MIT).
